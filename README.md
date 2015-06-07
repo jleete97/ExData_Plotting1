@@ -1,3 +1,15 @@
+## Exploratory Data Analysis, Project 1
+
+This completed assignment includes scripts to generate the four
+required images (plot1.R - plot4.R), and the required images
+themselves (plot1.png - plot4.png).
+
+To run the scripts (which the assignment says _not_ to do for
+grading purposes), put the data file in the same working directory
+as the scripts. This repository includes a ".gitignore" file that
+specifically avoids committing it, so we don't send it to GitHub
+20,000 times.
+
 ## Introduction
 
 This assignment uses data from
