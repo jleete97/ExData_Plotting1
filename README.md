@@ -10,6 +10,8 @@ as the scripts. This repository includes a ".gitignore" file that
 specifically avoids committing it, so we don't send it to GitHub
 20,000 times.
 
+The remainder of this README is from the original repository.
+
 ## Introduction
 
 This assignment uses data from
