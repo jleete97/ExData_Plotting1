@@ -1,6 +1,7 @@
 # plot3.R: Plot Energy sub metering (by subtype - 1, 2, 3) over time
 
-# Read main data file
+# Read main data file (set classes to avoid interpreting first two columns as factors)
+classes <- c("character", "character", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric")
 p <- read.table(file="household_power_consumption.txt", header=TRUE, na.strings="?", sep=";", nrows=2100000, colClasses = classes)
 
 # Generate date-only (Date) and date/time (POSIXlt) columns from raw inputs.
